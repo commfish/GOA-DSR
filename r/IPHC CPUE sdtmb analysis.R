@@ -53,8 +53,8 @@ cbpalette <- c("#009E73", "#0072B2", "#E69F00", "#56B4E9",
 # dat_raw <- read_csv(here("outputs",
 #                          "IPHC_cpue_notstandardized_fixed_2026.csv"))
 
-# This one has the correct stations witht all stations included
-dat_raw <- read_csv(here("outputs",
+# This one has the correct stations with all stations included
+dat_raw <- read_csv(here("outputs","2026",
                          "IPHC_cpue_notstandardized_fixed_no25p_2026.csv"))
 
 # Filter to get observations from less than 250 fathoms (same as 2024 GAM)
